@@ -1,1 +1,9 @@
-#
+def total_names(file_path):
+    names = set()
+    with open(file_path, 'r') as file:
+        for line in file:
+            name = line.strip()
+            
+            if name not in names:
+                names.add(name)
+    return len(names)
