@@ -1,0 +1,13 @@
+def total_births(file_path):
+    total = 0
+    with open(file_path, 'r') as file:
+        for line in file:
+            parts = line.strip().split(',')
+            births = int(parts[1])
+            total += births
+    return total
+
+filename = '../resource/lib/public/babynames.csv'  
+total_birth_count = total_births(filename)
+
+print(f"The total number of births covered by this list is {total_birth_count}.")
