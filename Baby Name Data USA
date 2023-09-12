@@ -1,3 +1,5 @@
+#finding total names in dataset 
+
 def total_names(file_path):
     names = set()
     with open(file_path, 'r') as file:
