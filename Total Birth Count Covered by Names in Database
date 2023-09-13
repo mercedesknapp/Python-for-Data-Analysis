@@ -1,3 +1,4 @@
+import requests
 def total_births(file_path):
     total = 0
     with open(file_path, 'r') as file:
@@ -7,7 +8,9 @@ def total_births(file_path):
             total += births
     return total
 
-filename = '../resource/lib/public/babynames.csv'  
+
 total_birth_count = total_births(filename)
 
 print(f"The total number of births covered by this list is {total_birth_count}.")
+
+filename = https://github.com/mercedesknapp/Python-for-Data-Analysis-US-Baby-Names/blob/main/USBabyNames2010s.csv
