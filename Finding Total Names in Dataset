@@ -1,4 +1,4 @@
-#finding total names in dataset 
+#finding total names in dataset using python
 
 def total_names(file_path):
     names = set()
