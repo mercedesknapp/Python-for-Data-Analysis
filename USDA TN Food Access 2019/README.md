@@ -24,6 +24,8 @@ I then wanted to identiy the counties with the highest value for a population th
 I proceed to look at the counties with the highest poverty rates and then create a bar chart to display the top five counties with the highest values of a Lapop1_20 which represents the population count beyond 1 mile for urban areas or 20 miles for rural areas from supermarket
 ![Screenshot 2023-10-09 at 12 53 21 PM](https://github.com/mercedesknapp/Python-for-Data-Analysis/assets/144730735/3a530f82-1d06-439e-ace4-d068b82c9f90)
 
-Scatter Plot
-Census Tracts
 Vehicle access
+Census Tracts
+
+Racial minorities/white distance
+
